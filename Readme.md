@@ -2,6 +2,8 @@
 
 CodeceptJS Recorder extension allows you to export tests directly from the Chrome DevTools [Recorder panel](https://goo.gle/devtools-recorder).
 
+<img width="768" alt="export-as-codeceptjs" src="https://user-images.githubusercontent.com/7845001/204847686-3b5dd197-922a-4470-858c-268ac33543dc.PNG">
+
 ## Usage
 
 1. [Create a new recording](https://goo.gle/devtools-recorder#record) via the Recorder panel
