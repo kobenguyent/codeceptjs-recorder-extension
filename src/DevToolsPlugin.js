@@ -5,10 +5,10 @@ import {
 
 export class RecorderPlugin {
   async stringify(recording) {
-    return await codeceptjsStringifyChromeRecording(JSON.stringify(recording));
+    return codeceptjsStringifyChromeRecording(JSON.stringify(recording));
   }
   async stringifyStep(step) {
-    return await stringifyParsedStep(step);
+    return stringifyParsedStep(step);
   }
 }
 

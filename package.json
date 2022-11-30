@@ -1,6 +1,6 @@
 {
   "name": "codeceptjs-recorder-extension",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CodeceptJS Extension for Devtools that allows you to export tests directly from the Recorder panel.",
   "scripts": {
     "build": "./preprocessExtension.sh && rollup --config rollup.config.js"
@@ -22,6 +22,6 @@
     "@rollup/plugin-node-resolve": "^15.0.1"
   },
   "dependencies": {
-    "codeceptjs-chrome-recorder": "0.1.0"
+    "codeceptjs-chrome-recorder": "0.1.1"
   }
 }
