@@ -1,14 +1,14 @@
 {
   "manifest_version": 3,
-  "version": "0.1.5",
+  "version": "0.1.6",
   "name": "CodeceptJS Chrome Recorder",
   "description": "CodeceptJS Extension for Devtools that allows you to export tests directly from the Recorder panel.",
   "permissions": [],
   "icons": {
-    "16": "img/logo-16x16.png",
-    "32": "img/logo-32x32.png",
-    "48": "img/logo-48x47.png",
-    "128": "img/logo-128x126.png"
+    "16": "logo-16x16.png",
+    "32": "logo-32x32.png",
+    "48": "logo-48x47.png",
+    "128": "logo-128x126.png"
   },
   "devtools_page": "DevToolsPlugin.html",
   "content_security_policy": {

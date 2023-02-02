@@ -14,7 +14,9 @@ CodeceptJS Recorder extension allows you to export tests directly from the Chrom
 ## Testing
 
 1. Clone the repo
-2. Visit chrome://extensions
-3. Enable "Developer mode" via toggle switch in upper right corner
-4. Click "Load unpacked" button in upper left corner
-5. Select the previously cloned directory
+2. Run `npm i` to install the dependencies
+3. Build the extension `npm run build`
+4. Visit chrome://extensions
+5. Enable "Developer mode" via toggle switch in upper right corner
+6. Click "Load unpacked" button in upper left corner
+7. Select the `dist` folder that you built at step 3
